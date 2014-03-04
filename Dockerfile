@@ -7,7 +7,7 @@ MAINTAINER Geoffroy Lesage
 
 # SqLite
 RUN export DEBIAN_FRONTEND=noninteractive
-RUN sudo apt-get install sqlite
+RUN sudo apt-get -y install sqlite
 
 RUN mkdir /home/app/
 
