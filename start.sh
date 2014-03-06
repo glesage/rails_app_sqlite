@@ -14,5 +14,4 @@ cd $DATADIR
 bundle install
 rake db:create
 rake db:migrate
-/bin/bash
-#rails s -d -p 80
+rails s -d -p 80
