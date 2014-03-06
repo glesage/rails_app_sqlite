@@ -9,8 +9,6 @@ MAINTAINER Geoffroy Lesage
 RUN export DEBIAN_FRONTEND=noninteractive
 RUN sudo apt-get -y install sqlite
 
-RUN mkdir /home/app/
-
 # Decouple webapp from container
 VOLUME ["/webapp"]
 

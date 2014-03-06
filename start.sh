@@ -9,7 +9,7 @@ set -e
 # Ensure server owns the DATADIR
 chown -R www-data $DATADIR
 
-WORKDIR $DATADIR
+cd $DATADIR
 
 bundle install
 bundle exec rake db:create
