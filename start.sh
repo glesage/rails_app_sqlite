@@ -12,6 +12,6 @@ chown -R www-data $DATADIR
 cd $DATADIR
 
 bundle install
-bundle exec rake db:create
-bundle exec rake db:migrate
-bundle exec rails s -d -p80
+rake db:create
+rake db:migrate
+rails s -d -p 80
