@@ -1,4 +1,4 @@
-## Rails App & MySql Dockerfile
+## Rails App & SQLite Dockerfile
 
 
 This repository contains **Dockerfile** of [SQLite](http://www.sqlite.org/) for [Docker](https://www.docker.io/) published to the public [Docker Registry](https://index.docker.io/).
@@ -26,4 +26,4 @@ This repository contains **Dockerfile** of [SQLite](http://www.sqlite.org/) for 
 - Ruby 2.1.1
 - NodeJS
 - Rails 4
-- MySql
+- SQLite3
