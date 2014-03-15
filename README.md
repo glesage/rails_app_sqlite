@@ -1,5 +1,5 @@
 Rails App & SQLite Dockerfile
-===============
+============================
 
 
 This repository contains **Dockerfile** of [SQLite](http://www.sqlite.org/) for [Docker](https://www.docker.io/) published to the public [Docker Registry](https://index.docker.io/).
