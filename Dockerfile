@@ -12,7 +12,7 @@ RUN apt-get -y install sqlite libsqlite3-dev
 # Decouple webapp from container
 VOLUME ["/webapp"]
 
-EXPOSE 80
+EXPOSE 3000
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
