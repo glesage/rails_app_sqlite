@@ -19,7 +19,7 @@ This repository contains **Dockerfile** of [SQLite](http://www.sqlite.org/) for 
 
 ### Usage
 
-    docker run -i -t -p 80:80 -v /home/me/myapp:/webapp glesage/rails-app-sqlite
+    docker run -d -p 3000:80 -v /home/me/myapp:/webapp glesage/rails-app-sqlite
 
 
 ### Stack
