@@ -7,7 +7,7 @@ MAINTAINER Geoffroy Lesage
 
 # SqLite
 RUN export DEBIAN_FRONTEND=noninteractive
-RUN sudo apt-get -y install sqlite libsqlite3-dev
+RUN apt-get -y install sqlite libsqlite3-dev
 
 # Decouple webapp from container
 VOLUME ["/webapp"]
